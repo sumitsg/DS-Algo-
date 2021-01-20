@@ -1,5 +1,12 @@
-
-
+import java.util.*;
+class Main{
+    public static void main (String args[]){
+    int a = 20;
+    int b = 15;
+    int c = 35;
+    int ans = middle(a,b,c);
+    System.out.println(ans +" is the middle element");
+    }
 
 class Solution{
     int middle(int A, int B, int C){
@@ -13,7 +20,8 @@ class Solution{
             else return C;
         }
         else{
-            return B;   
+             return B;   
+            }
         }
     }
 }
